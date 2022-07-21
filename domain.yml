@@ -8,6 +8,46 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - entrance__exam_queries
+  - admission_procedure
+  - course_queries
+  - examination_grading
+  - results_sem_exams
+  - examinations
+  - re-examinations
+  - Location
+  - Clubs
+  - Student_community
+  - Facilities
+  - hours
+  - number
+  - course
+  - BTech
+  - Mtech
+  - Ph.D.
+  - fees
+  - location
+  - hostels
+  - events
+  - document
+  - floors
+  - syllabus
+  - library
+  - infrastructure
+  - placement
+  - applied_science_hod
+  - cse_hod
+  - ece_hod
+  - it_hod
+  - architecture_hod
+  - mech_hod
+  - management_hod
+  - ai_hod
+  - chancellor
+  - ragging
+  
+  
+  
 
 responses:
   utter_greet:
@@ -29,6 +69,90 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_entrance__exam_queries:
+  - text: "The admission B.Tech and B.Arch programme will be through Joint Admission Counselling (JAC) - 2021 jointly for DTU, NSUT, IGDTUW, DSEU and IIITD. For more information, the candidates must visit jac delhi regularly for updates."
+ 
+  utter_hours:
+  - text: "College is open 9am-5pm Monday-Friday!"
+ 
+  utter_numbers:
+  - text: "You can contact us at 011- 23900261, 23900264"
+ 
+  utter_course:
+  - text : "Igdtuw currently offers 5 Btech courses, one dual degree course (B.Tech+MBA),One course for B.Arch and One course of BBA For undergraduates, 4 Mtech courses ,MCA, M.Plan and Mba courses for postgraduates, and 10 Ph.D courses."
+ 
+  utter_Btech:
+  - text: "University offers B Tech in 5 streams  Computer science and artificial Intelligence(CSAI)   Computer science engineering (CSE)  Information Technology(IT)   Electronics and Communication(ECE)  Mechanical and Automation(MAE)"
+ 
+  utter_Mtech:
+  - text: "University offers M.Tech. in 4 streams CSE(Artificial Intelligence) IT(Information Security Management) ECE(VLSI Design) MAE(Robotics and Automation) "
+  utter_Ph.D.:
+  - text: "University offers Ph.D. in 10 streams Ph.D.(CSE) Ph.D.(IT) Ph.D.(Computer Applications) Ph.D.(ECE) Ph.D.(Electrical Engineering) Ph.D.(MAE) Ph.D.(Physics) Ph.D.(chemistry) Ph.D.(Mathematics) Ph.D.(English)"
+  utter_fees:
+  - text: "For fee details visit IGDTUW official website"
+ 
+  utter_location:
+  - text: "Indira Gandhi Delhi Technical University For Women, Madrasa Road ,Opposite St. James Church Kashmere Gate,Delhi nearest metro station is kashmere gate"
+ 
+  utter_hostel:
+  - text: "The University has two women hostels - Krishna Hostel and Kaveri Hostel , to accommodate approximately 300 students. "
+ 
+  utter_events:
+  - text: "Cultural fest Taarangana and technical fest innerve are organised annually apart from them There is annual sports meet,various cultural and technical festivals organised by different societies."
+ 
+  utter_document:
+  - text: "The marksheet of class 12th and 10th, Character certificate, caste certificate(if not general),School leaving certificate, Two passport size photographs, Admit Card, Nta scores(B.Tech) and migration certificate"
+ 
+  utter_floor:
+  - text: "For more information on various departments and infrastructures please visit our website"
+ 
+  utter_syllabus:
+  - text: "To know about  syllabus and timetable please visit our website"
+ 
+  utter_library:
+  - text: "Learning Resource Centre (LRC) serves as the premier source of academic information for the IGDTUW community through its collections, educational and consulting services. The LRC has a highly selective collection of print, electronic, and audiovisual materials in the areas of science, engineering, technology and management to support the learning and research activities of students and faculty. A number of e- journals are being subscribed through consortia mode subscription. All these journals are available online to the members of the LRC in campus LAN. "
+ 
+  utter_infrastruce:
+  - text: "University campus has auditorium, convenience store, good wifi connectivity,Medical facilities, labs, sports complex,two women's hostels and library. For more information on infrastructure visit our website "
+ 
+  utter_placement:
+  - text: "The Training and Placement Cell facilitates the campus placement program at IGDTUW. The cell comprises a highly energetic and dynamic team of students and faculty members. for more details please visit our website"
+
+  utter_applied_science_hod:
+  - text: "Prof. Chhaya Ravi Kant is HOD of Applied Sciences and Humanities department. For more information visit our website"
+
+  utter_cse_hod:
+  - text: "Prof. Seeja K.R. is HOD of Computer Science $ Engineering department. For more information visit our website"
+
+  utter_ece_hod:
+  - text: "Dr. Nidhi Goel is HOD of Electronics and communication Engineering department. For more information visit our website"
+
+  utter_it_hod:
+  - text: "Prof. Amar k. Mohapatra is HOD of Information Technology department. For more information visit our website"
+
+  utter_architecture_hod:
+  - text: "Ar. Vishal Rai is HOD of Architecture and Planning department. For more information visit our website"
+
+  utter_mech_hod:
+  - text: "Prof. Nathi Ram Chauhan is HOD of Mechanical and Automation department. For more information visit our website"
+
+  utter_management_hod:
+  - text: "Prof. Shalini Arora is HOD of Management department. For more information visit our website"
+
+  utter_ai_hod:
+  - text: "Prof. Arun Sharma is HOD of Artificial intelligence department. For more information visit our website"
+
+  utter_chancellor:
+  - text: "Dr.Anil Baijal is chancellor and Dr.Amita Dev is vice chancellor of university. To know more about university administration visit our website"
+
+  utter_ragging:
+  - text: "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+
+
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+

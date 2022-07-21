@@ -11,3 +11,138 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say Answer entrance exam queries
+  steps:
+  - intent: entrance__exam_queries
+  - action: utter_entrance__exam_queries
+ 
+- rule: Say college hours
+  steps:
+  - intent: hours
+  - action: utter_hours
+ 
+- rule: Say contact info
+  steps:
+  - intent: numbers
+  - action: utter_numbers
+ 
+- rule: Say course info
+  steps:
+  - intent: course
+  - action: utter_course
+ 
+- rule: Say tech info
+  steps:
+  - intent: Btech
+  - action: utter_Btech
+ 
+- rule: Say MTech info
+  steps:
+  - intent: Mtech
+  - action: utter_Mtech
+ 
+- rule: Say PHD info
+  steps:
+  - intent: Ph.D.
+  - action: utter_Ph.D.
+ 
+- rule: Say Fee structure
+  steps:
+  - intent: fees
+  - action: utter_fees
+ 
+- rule: Say College location
+  steps:
+  - intent: location
+  - action: utter_location
+ 
+- rule: Say Hostel info
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+ 
+- rule: Say event info
+  steps:
+  - intent: events
+  - action: utter_events
+ 
+- rule: Say admission documents
+  steps:
+  - intent: document
+  - action: utter_document
+ 
+- rule: Say some floor info
+  steps:
+  - intent: floor
+  - action: utter_floor
+ 
+- rule: Say syllabus info
+  steps:
+  - intent: syllabus
+  - action: utter_syllabus
+ 
+- rule: Say library info
+  steps:
+  - intent: library
+  - action: utter_library
+ 
+- rule: Say infra info
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastruce
+ 
+- rule: Say placement info
+  steps:
+  - intent: placement
+  - action: utter_placement
+
+- rule: Say hod ash
+  steps:
+  - intent: applied_sciences_hod
+  - action: utter_applied_science_hod
+
+- rule: Say hod cse
+  steps:
+  - intent: cse_hod
+  - action: utter_cse_hod
+
+- rule: Say hod ece
+  steps:
+  - intent: ece_hod
+  - action: utter_ece_hod
+
+- rule: Say hod it
+  steps:
+  - intent: it_hod
+  - action: utter_it_hod
+
+- rule: Say hod arch
+  steps:
+  - intent: architecture_hod
+  - action: utter_architecture_hod
+
+- rule: Say hod mgmt
+  steps:
+  - intent: management_hod
+  - action: utter_management_hod
+
+- rule: Say hod mech
+  steps:
+  - intent: mech_hod
+  - action: utter_mech_hod
+
+- rule: Say hod ai
+  steps:
+  - intent: ai_hod
+  - action: utter_ai_hod
+
+- rule: Say who is the chancellor
+  steps:
+  - intent: chancellor
+  - action: utter_chancellor
+
+- rule: Say anti-ragging policies
+  steps:
+  - intent: ragging
+  - action: utter_ragging

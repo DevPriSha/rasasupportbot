@@ -89,3 +89,321 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+  
+- intent: entrance__exam_queries
+  examples: |
+    - How many ways are there for taking admission in all the different courses offered by the institute?
+    - Which exams need to be given for the admission?
+    - Ways for taking admission?
+ 
+- intent: admission_procedure
+  examples: |
+    - How many rounds of admissions are there before final admission letter?
+    - When does the college approve admission of a student?
+    - When is the document verification and other formalities of admission done after giving the admission letter?
+    - How are documents verified for a candidate?
+    - How do I get document verification done?
+ 
+- intent: course_queries
+  examples: |
+    - Are there any courses like bca and bba?
+    - What programs does the University offer?
+    - What programs are offered?
+    - What is the syllabus of IT first semester?
+ 
+- intent: examination_grading
+  examples: |
+    - How is the normalisation process and relative grading implemented?
+    - What is marks vs grade or cgpa criteria?
+ 
+- intent: results_sem_exams
+  examples: |
+    - When would we get our 1st sem?
+    - When can we get our mid semester exams results?
+    - When will we get our results for the sem exams?
+    - when are we getting our semester exam results?
+    - When are the semester exams results coming out?
+ 
+- intent: examinations
+  examples: |
+    - How many types of exams are there?
+    - What all exams are there in a year?
+    - what all exams are conducted in a year for grading?
+    - What is the weightage of mid semester, end semester exams?
+    - how are practicals conducted?
+    - What is the procedure for relative marking?
+ 
+- intent: re-examinations
+  examples: |
+    - Who all can appear for re-examination?
+    - Eligibility to give re-examination
+    - can i give appear for re-examination
+    - Does re-examination happen for mid terms and end terms?
+    - what happens if we miss any exams?
+ 
+- intent: Location
+  examples: |
+    - Where is Indira Gandhi Delhi Technical University located?
+    - Where is Kashmere Gate?
+    - How to reach Kashmere gate?
+    - how to reach Indira Gandhi Delhi Technical University for women?
+    - where is IGDTUW?
+    - How to reach igdtuw?
+    - Nearest Metro?
+    
+- intent: Clubs
+  examples: |
+    - What clubs and societies are there in IGDTUW?
+    - list all the societies or club or chapters
+    
+- intent: Student_community
+  examples: |
+    - Student Culture
+    - Guidance/Support for students regarding career/education/research/placements
+    - Coding Community/Research Community
+  
+- intent: Facilities
+  examples: |
+    - Labs in the campus
+    - Sports facilities in the campus
+    - Hostel details
+ 
+- intent: hours
+  examples: |
+    - timing of college
+    - what is college timing
+    - working days
+    - when are you guys open
+    - what are your hours
+    - hours of operation
+    - when is the college open
+    - college timing
+    - what about college timing
+    - is college open on saturday
+    - tell something about college timing
+    - what is the college  hours
+    - when should i come to college
+    - what is my college time
+    - college timing
+    - timing college
+ 
+- intent: number
+  examples: |
+    - more info
+    - contact info
+    - how to contact college
+    - college telephone number
+    - college number
+    - What is your contact no
+    - Contact number?
+    - how to call you
+    - College phone no?
+    - how can i contact you
+    - Can i get your phone number
+    - how can i call you
+    - call
+    - phone number
+
+- intent: course
+  examples: |
+    - list of courses
+    - list of courses offered
+    - list of courses offered in igdtuw
+    - what are the courses offered in your college?
+    - branches available at IGDTUW
+    - what are the courses in IGDTUW?
+    - what are branches in IGDTUW?
+    - can you tell me the courses available in igdtuw?
+    - can you tell me the branches available in igdtuw?
+
+- intent: BTech
+  examples: |
+    - how many B  Tech streams
+    - btech streams available
+    - branches in btech available
+    - b tech fields available
+
+- intent: Mtech
+  examples: |
+    - how many m tech streams
+    - m tech fields available
+    - branches in mtech available
+
+- intent: Ph.D.
+  examples: |
+    - how many Ph.D. streams
+    - how many phd fields
+    - phd branches
+    - phd streams
+    - phd fields
+
+- intent: fees
+  examples: |
+    - information about fee
+    - fee per semester
+    - fees
+    - fees for first year
+    - tell me something about the fees
+    - how much is the fees
+
+- intent: location
+  examples: |
+    - where is the college located
+    - college is located at
+    - where is college
+    - how to reach college
+    - college location
+    - how can I reach college
+    - what is the address of college
+    - location
+    - address
+
+- intent: hostels
+  examples: |
+    - hostel facility
+    - hostel service
+    - hostel location
+    - hostel facilities
+
+- intent: events
+  examples: |
+    - events organised
+    - list of events organised in college
+    - What events are conducted in college
+    - Are there any event held at college
+    - what are the events
+    - functions
+    - events
+
+- intent: document
+  examples: |
+    - document to bring
+    - documents needed for admission
+    - documents needed at the time of admission
+    - documents needed during admission
+    - documents required for admission
+    - documents required at the time of admission
+    - documents required during admission
+ 
+- intent: floors
+  examples: |
+    - size of campus
+    - How many floors does college have
+    - how tall is IGDTUW college building
+    - floors in college
+    
+- intent: syllabus
+  examples: |
+    - Syllabus for IT
+    - what is the btech syllabus
+    - syllabus for btech
+  
+- intent: library
+  examples: |
+    - is there any library
+    - library facility
+    - library facilities
+    - does the college have library facility
+  
+- intent: infrastructure
+  examples: |
+    - how is college infrastructure
+    - infrastructure
+    - college infrastructure
+ 
+- intent: placement
+  examples: |
+    - What is college placement
+    - Which companies visit in college
+    -  What is average package
+    - package
+    - recruitment
+    - companies
+
+- intent: applied_science_hod
+  examples: |
+    - Who is applied sciences hod
+    - Where is applied sciences hod
+    - applied sciences and humanities hod
+    - name of applied sciences and humanities hod
+    - applied sciences
+    - humanities
+    - applied sciences and humanities
+
+- intent: cse_hod
+  examples: |
+    - Who is CSE hod
+    - Where is CSE hod
+    - CSE department hod
+    - name of CSE hod
+    - CSE HOD
+    
+- intent: ece_hod
+  examples: |
+    - Who is ECE hod
+    - Where is ECE hod
+    - ECE department hod
+    - name of ECE hod
+    - ECE HOD
+
+- intent: it_hod
+  examples: |
+    - Who is IT hod
+    - Where is IT hod
+    - IT department HOD
+    - name of IT hod
+    - IT HOD
+
+- intent: architecture_hod
+  examples: |
+    - Who is architecture hod
+    - Where is architecture hod
+    - architecture hod
+    - name of architecture hod
+    - architecture department HOD
+
+- intent: mech_hod
+  examples: |
+    - Who is mechanical hod
+    - Where is mechanical hod
+    - mechanical hod
+    - name of mechanical hod
+    - mechanical department HOD
+
+- intent: management_hod
+  examples: |
+    - Who is management hod
+    - Where is management hod
+    - management hod
+    - name of management hod
+    - management department HOD
+
+- intent: ai_hod
+  examples: |
+    - Who is AI hod
+    - Where is AI hod
+    - AI hod
+    - name of AI hod
+    - AI department HOD
+
+- intent: chancellor
+  examples: |
+    - what is the name of vice chancellor
+    - whatv is the vice chancellors name
+    - vice chancellor name
+    - who is college chancellor
+    - Where is chancellors office
+    - vice chancellor
+    - name of vice chancellor
+    - chancellor
+
+- intent: ragging
+  examples: |
+    - ragging",
+    - is ragging practice active in college
+    - does college have any antiragging facility
+    - are there any ragging cases
+    - is ragging done here
+    - ragging juniors
+    - ragging history
+    - ragging incidents
