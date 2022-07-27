@@ -20,10 +20,10 @@ Make sure python is python 3.8
 Open `index.html` in your browser.
 
 ## TODO
-- [v] Add frontend
+- [x] Add frontend
 - [ ] Add voice support (speech synthesis and speech recognition)
 - [ ] Increase dataset (and add buttons and slots/entities)
-- [v] Add a fallback intent.
+- [x] Add a fallback intent.
 
 ## Known bugs/Issues
 - [ ] Does not work on Safari (M1 Mac)
