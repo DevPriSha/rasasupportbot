@@ -148,7 +148,8 @@ responses:
   utter_ragging:
   - text: "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
 
-
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 
 
 

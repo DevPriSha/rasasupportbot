@@ -1,9 +1,13 @@
 # rasasupportbot
 
 ### Create a virtual environment
-`pip install rasa`
+Make sure python is python 3.8
+`python3 -m venv venv`
+`source venv/bin/activate` (Linux/UNIX)
+`venv\Scripts\activate` (Windows)
+`pip install rasa=3.0`
 
-### Activate virtual environment
+**Note:** M1 Mac users install Rasa by following this guide - https://forum.rasa.com/t/an-unofficial-guide-to-installing-rasa-on-an-m1-macbook/51342
 
 ### Train model
 `rasa train`
@@ -16,6 +20,11 @@
 Open `index.html` in your browser.
 
 ## TODO
-~~1. Add frontend~~
-2. Add voice support (speech synthesis and speech recognition)
-3. Increase dataset (and add buttons and slots/entities)
+- [v] Add frontend
+- [ ] Add voice support (speech synthesis and speech recognition)
+- [ ] Increase dataset (and add buttons and slots/entities)
+- [v] Add a fallback intent.
+
+## Known bugs/Issues
+- [ ] Does not work on Safari (M1 Mac)
+
