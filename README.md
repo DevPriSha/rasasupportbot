@@ -1,10 +1,14 @@
 # rasasupportbot
 
 ### Create a virtual environment
-Make sure python is python 3.8
+- Make sure python is python 3.8
+
 `python3 -m venv venv`
+
 `source venv/bin/activate` (Linux/UNIX)
+
 `venv\Scripts\activate` (Windows)
+
 `pip install rasa=3.0`
 
 **Note:** M1 Mac users install Rasa by following this guide - https://forum.rasa.com/t/an-unofficial-guide-to-installing-rasa-on-an-m1-macbook/51342
