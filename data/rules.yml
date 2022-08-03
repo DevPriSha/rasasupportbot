@@ -161,3 +161,43 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+  
+- rule: Say facilities provided
+  steps:
+  - intent: facilities
+  - action: utter_facilities
+
+- rule: Say the intake of college students
+  steps: 
+  - intent: college_intake
+  - action: utter_college_intake
+
+- rules: Say the university uniform
+  steps: 
+  - intent: uniform
+  - action: utter_uniform
+
+- rules: Say College committee
+  steps:
+  - intent: committee
+  - action: utter_committee
+
+- rules: Say vacation
+  steps:
+  - intent: vacation
+  - action: utter_vacation
+
+- rules: Say task
+  steps:
+  - intent: task
+  - action: utter_task
+
+- rules: transport
+  steps:
+  - intent: transport
+  - action: utter_transport
+
+- rules: metro
+  steps:
+  - intent: metro
+  - action: utter_metro
