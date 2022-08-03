@@ -19,13 +19,13 @@ rules:
 
 - rule: Say admission procedure
   steps:
-  -intent: examinations
+  - intent: examinations
   - action: utter_admission_procedure
  
- -rule: Say Student Community
-   steps:
-   - intent: Students_Community
-   - action: utter_Students_Community 
+- rule: Say Student Community
+  steps:
+  - intent: Students_Community
+  - action: utter_Students_Community 
    
 - rule: Say college hours
   steps:
