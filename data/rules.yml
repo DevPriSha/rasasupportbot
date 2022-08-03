@@ -16,7 +16,17 @@ rules:
   steps:
   - intent: entrance__exam_queries
   - action: utter_entrance__exam_queries
+
+- rule: Say admission procedure
+  steps:
+  -intent: examinations
+  - action: utter_admission_procedure
  
+ -rule: Say Student Community
+   steps:
+   - intent: Students_Community
+   - action: utter_Students_Community 
+   
 - rule: Say college hours
   steps:
   - intent: hours
