@@ -162,11 +162,7 @@ nlu:
     - Guidance/Support for students regarding career/education/research/placements
     - Coding Community/Research Community
   
-- intent: Facilities
-  examples: |
-    - Labs in the campus
-    - Sports facilities in the campus
-    - Hostel details
+
  
 - intent: hours
   examples: |
