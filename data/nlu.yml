@@ -90,7 +90,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
   
-- intent: entrance__exam_queries
+- intent: entrance_exam_queries
   examples: |
     - How many ways are there for taking admission in all the different courses offered by the institute?
     - Which exams need to be given for the admission?
@@ -413,7 +413,7 @@ nlu:
     - facilities
     - facilities provided
 
-- intent: college intake
+- intent: college_intake
   examples: |
     - max number of students
     - number of seats per branch
