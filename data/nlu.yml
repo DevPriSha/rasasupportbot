@@ -90,7 +90,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
   
-- intent: entrance__exam_queries
+- intent: entrance_exam_queries
   examples: |
     - How many ways are there for taking admission in all the different courses offered by the institute?
     - Which exams need to be given for the admission?
@@ -162,11 +162,7 @@ nlu:
     - Guidance/Support for students regarding career/education/research/placements
     - Coding Community/Research Community
   
-- intent: Facilities
-  examples: |
-    - Labs in the campus
-    - Sports facilities in the campus
-    - Hostel details
+
  
 - intent: hours
   examples: |
@@ -399,7 +395,7 @@ nlu:
 
 - intent: ragging
   examples: |
-    - ragging",
+    - ragging
     - is ragging practice active in college
     - does college have any antiragging facility
     - are there any ragging cases
@@ -407,3 +403,91 @@ nlu:
     - ragging juniors
     - ragging history
     - ragging incidents
+ 
+- intent: facilities
+  examples: |
+    - What facilities college provide
+    - College facility
+    - What are college facilities
+    - are there any ragging cases
+    - facilities
+    - facilities provided
+
+- intent: college_intake
+  examples: |
+    - max number of students
+    - number of seats per branch
+    - number of seats in each branch
+    - maximum number of seats
+    - maximum students intake
+    - What is college intake
+    - how many stundent are taken in each branch
+    - seat allotment
+    - seats
+ 
+- intent: uniform
+  examples: |
+    - college dresscode
+    - what is the uniform
+    - can we wear casuals
+    - Does college have an uniform
+    - Is there any uniform
+    - uniform
+    - what about uniform
+    - do we have to wear uniform
+
+- intent: committee
+  examples: |
+    - what are the different committe in college
+    - different committee in college
+    - Are there any committee in college
+    - Give me committee details
+    - committee
+    - how many committee are there in college
+
+- intent: vacation
+  examples: |
+    - holidays
+    - when will semester starts
+    - when will semester end
+    - when is the holidays
+    - list of holidays
+    - about vacations
+    - about holidays
+    - When is vacation
+    - When is holidays
+    - how long will be the vacation
+
+- intent: task
+  examples: |
+    - what can you do
+    - what are the thing you can do
+    - things you can do
+    - what can you do for me
+    - how you can help me
+    - why i should use you
+
+- intent: transport
+  examples: |
+    - dtc bus route
+    - mode of transportation
+    - how to get to college
+    - buses for college
+    - college buses
+    - bus routes
+    - does 729 goes to college
+    - does 729 goes to kashmere gate
+
+- intent: metro
+  examples: |
+    - nearest metro station
+    - what is the nearest metro station
+    - which metro station is near
+    - closest metro station
+    - which metro station is closest
+    - nearby metro stations
+    - metro
+    - metro station nearby
+
+
+
