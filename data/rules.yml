@@ -172,32 +172,32 @@ rules:
   - intent: college_intake
   - action: utter_college_intake
 
-- rules: Say the university uniform
+- rule: Say the university uniform
   steps: 
   - intent: uniform
   - action: utter_uniform
 
-- rules: Say College committee
+- rule: Say College committee
   steps:
   - intent: committee
   - action: utter_committee
 
-- rules: Say vacation
+- rule: Say vacation
   steps:
   - intent: vacation
   - action: utter_vacation
 
-- rules: Say task
+- rule: Say task
   steps:
   - intent: task
   - action: utter_task
 
-- rules: transport
+- rule: transport
   steps:
   - intent: transport
   - action: utter_transport
 
-- rules: metro
+- rule: metro
   steps:
   - intent: metro
   - action: utter_metro
