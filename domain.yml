@@ -159,9 +159,31 @@ responses:
 
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
-
-
-
+  
+  utter_facilities:
+  - text: IGDTUW provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen
+  
+  utter_college_intake:
+  - text: University offers around 600 seats for B.Tech., 40 for B.Arch. and 75 for B.B.A. ,128 Seats for Mtech,76 each for M.C.A and M.B.A.For more information visit our website
+  
+  utter_uniform:
+  - text: IGDTUW does not have uniform.
+  
+  utter_committee:
+  - text: There are various committees in college you can see at our website
+  
+  utter_vacation:
+  - text: Please refer to the academic calendar on our website.
+  
+  utter_task:
+  - text: You can ask me questions regarding college, and I will try to answer them
+  
+  utter_transport:
+  - text: Bus: 114ST+901, 171, 246, 405, 621, 729, 937A, IGI-4EXP are some of appropriate buses to reach IGDTUW.
+  
+  utter_metro:
+  - text: Kashmere Gate metro station
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
