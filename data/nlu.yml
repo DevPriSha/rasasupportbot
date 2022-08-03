@@ -333,6 +333,12 @@ nlu:
     - CSE department hod
     - name of CSE hod
     - CSE HOD
+    - Who is Computer Science hod
+    - Where is Computer Science hod
+    - Computer Science Engineering department hod
+    - name of Computer Science Engineering hod
+    - Computer Science HOD
+    
     
 - intent: ece_hod
   examples: |
@@ -341,6 +347,11 @@ nlu:
     - ECE department hod
     - name of ECE hod
     - ECE HOD
+    - Who is Electronics and Communication Engineering hod
+    - Where is Electronics and Communication Engineering hod
+    - Electronics and Communication Engineering department hod
+    - name of Electronics and Communication Engineering hod
+    - Electronics and Communication Engineering HOD
 
 - intent: it_hod
   examples: |
@@ -349,6 +360,11 @@ nlu:
     - IT department HOD
     - name of IT hod
     - IT HOD
+    - Who is Information Technology hod
+    - Where is Information Technology hod
+    - Information Technology department HOD
+    - name of Information Technology hod
+    - Information Technology HOD
 
 - intent: architecture_hod
   examples: |
@@ -381,6 +397,11 @@ nlu:
     - AI hod
     - name of AI hod
     - AI department HOD
+    - Who is Artificial Intelligence hod
+    - Where is Artificial Intelligence hod
+    - Artificial Intelligence hod
+    - name of Artificial Intelligence hod
+    - Artificial Intelligence department HOD
 
 - intent: chancellor
   examples: |
