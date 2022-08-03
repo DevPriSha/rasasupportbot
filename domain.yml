@@ -45,6 +45,14 @@ intents:
   - ai_hod
   - chancellor
   - ragging
+  - facilities
+  - college_intake
+  - uniform
+  - transport
+  - metro
+  - committee 
+  - vacation
+  - task
   
   
   
