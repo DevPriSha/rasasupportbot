@@ -156,7 +156,7 @@ nlu:
     - What clubs and societies are there in IGDTUW?
     - list all the societies or club or chapters
     
-- intent: Student_community
+- intent: Student_Community
   examples: |
     - Student Culture
     - Guidance/Support for students regarding career/education/research/placements
@@ -183,7 +183,7 @@ nlu:
     - college timing
     - timing college
  
-- intent: number
+- intent: numbers
   examples: |
     - more info
     - contact info
@@ -254,7 +254,7 @@ nlu:
     - location
     - address
 
-- intent: hostels
+- intent: hostel
   examples: |
     - hostel facility
     - hostel service

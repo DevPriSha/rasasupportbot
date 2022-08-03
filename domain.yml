@@ -17,17 +17,17 @@ intents:
   - re-examinations
   - Location
   - Clubs
-  - Student_community
+  - Student_Community
   - Facilities
   - hours
-  - number
+  - numbers
   - course
   - BTech
   - Mtech
   - Ph.D.
   - fees
   - location
-  - hostels
+  - hostel
   - events
   - document
   - floors
@@ -96,9 +96,9 @@ responses:
   - text: "You can contact us at 011- 23900261, 23900264"
  
   utter_course:
-  - text : "Igdtuw currently offers 5 Btech courses, one dual degree course (B.Tech+MBA),One course for B.Arch and One course of BBA For undergraduates, 4 Mtech courses ,MCA, M.Plan and Mba courses for postgraduates, and 10 Ph.D courses."
+  - text : "Igdtuw currently offers 5 BTech courses, one dual degree course (B.Tech+MBA),One course for B.Arch and One course of BBA For undergraduates, 4 Mtech courses ,MCA, M.Plan and Mba courses for postgraduates, and 10 Ph.D courses."
  
-  utter_Btech:
+  utter_BTech:
   - text: "University offers B Tech in 5 streams  Computer science and artificial Intelligence(CSAI)   Computer science engineering (CSE)  Information Technology(IT)   Electronics and Communication(ECE)  Mechanical and Automation(MAE)"
  
   utter_Mtech:
@@ -120,7 +120,7 @@ responses:
   utter_document:
   - text: "The marksheet of class 12th and 10th, Character certificate, caste certificate(if not general),School leaving certificate, Two passport size photographs, Admit Card, Nta scores(B.Tech) and migration certificate"
  
-  utter_floor:
+  utter_floors:
   - text: "For more information on various departments and infrastructures please visit our website"
  
   utter_syllabus:
@@ -157,7 +157,7 @@ responses:
   - text: "Prof. Shalini Arora is HOD of Management department. For more information visit our website"
 
   utter_ai_hod:
-  - text: "Prof. Arun Sharma is HOD of Artificial intelligence department. For more information visit our website"
+  - text: "Prof. Poonam Bansal is HOD of Artificial intelligence department. For more information visit our website"
 
   utter_chancellor:
   - text: "Dr.Anil Baijal is chancellor and Dr.Amita Dev is vice chancellor of university. To know more about university administration visit our website"
@@ -192,6 +192,9 @@ responses:
   utter_metro:
   - text: "Kashmere Gate metro station"
   
+  utter_Student_Community:
+  - text: "Student Welfare office at IGDTUW provide ample scope, opportunities & facilities for multidimensional development of personality & leadership qualities among students. Students effectively participate in social & cultural activities, sports activities, literally activities, professional activities under various clubs and societies under the mentorship of experienced faculty advisors."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

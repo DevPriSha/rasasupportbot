@@ -24,8 +24,8 @@ rules:
  
 - rule: Say Student Community
   steps:
-  - intent: Students_Community
-  - action: utter_Students_Community 
+  - intent: Student_Community
+  - action: utter_Student_Community 
    
 - rule: Say college hours
   steps:
@@ -44,8 +44,8 @@ rules:
  
 - rule: Say tech info
   steps:
-  - intent: Btech
-  - action: utter_Btech
+  - intent: BTech
+  - action: utter_BTech
  
 - rule: Say MTech info
   steps:
@@ -84,8 +84,8 @@ rules:
  
 - rule: Say some floor info
   steps:
-  - intent: floor
-  - action: utter_floor
+  - intent: floors
+  - action: utter_floors
  
 - rule: Say syllabus info
   steps:
@@ -109,7 +109,7 @@ rules:
 
 - rule: Say hod ash
   steps:
-  - intent: applied_sciences_hod
+  - intent: applied_science_hod
   - action: utter_applied_science_hod
 
 - rule: Say hod cse
