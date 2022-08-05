@@ -140,6 +140,7 @@ nlu:
     - can i give appear for re-examination
     - Does re-examination happen for mid terms and end terms?
     - what happens if we miss any exams?
+    - re-exam
  
 - intent: Location
   examples: |
@@ -155,6 +156,10 @@ nlu:
   examples: |
     - What clubs and societies are there in IGDTUW?
     - list all the societies or club or chapters
+    - student societies 
+    - student chapters
+    - Technical Clubs
+    
     
 - intent: Student_Community
   examples: |
@@ -182,6 +187,8 @@ nlu:
     - what is my college time
     - college timing
     - timing college
+    - duration of college
+    - open timings
  
 - intent: numbers
   examples: |
@@ -218,6 +225,7 @@ nlu:
     - btech streams available
     - branches in btech available
     - b tech fields available
+    - engineering courses
 
 - intent: Mtech
   examples: |
@@ -232,6 +240,7 @@ nlu:
     - phd branches
     - phd streams
     - phd fields
+    - doctorate courses
 
 - intent: fees
   examples: |
@@ -241,6 +250,8 @@ nlu:
     - fees for first year
     - tell me something about the fees
     - how much is the fees
+    - tuition fees
+    - hostel fees
 
 - intent: location
   examples: |
@@ -260,6 +271,7 @@ nlu:
     - hostel service
     - hostel location
     - hostel facilities
+    - living in campus
 
 - intent: events
   examples: |
