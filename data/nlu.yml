@@ -539,7 +539,7 @@ nlu:
     - metro
     - metro station nearby
 
-- intent: Business Blasters Programme
+- intent: Business_Blasters_Programme
   examples: |
     - Is IGDTUW providing BBA-IEV programme
     - When is the admission procedure starting
