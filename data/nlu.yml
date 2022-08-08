@@ -390,12 +390,6 @@ nlu:
     - IT head of department
     - information technology head
 
-- intent: mapping
-  examples: |
-    - Where is [Admin Block](location)?
-    - How to reach [Admin Block](location)?
-    - How can I go to [CSE Dept](location)?
-    - In which direction is [Library](location)?
     
 - intent: Architecture_Planning
   examples: |
@@ -533,7 +527,7 @@ nlu:
     - nearest bus stop
     - where do I take the bus for 
     - bus stand
-    
+
 - intent: metro
   examples: |
     - nearest metro station
