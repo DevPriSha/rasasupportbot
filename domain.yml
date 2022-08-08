@@ -211,7 +211,7 @@ responses:
   utter_it:
   - text: "Department of IT aims to prepare students to undertake careers involving innovation and problem solving using IT, or to undertake advanced studies for research careers in IT. It aims to emerge as a centre of excellence in leveraging information technology to stimulate the exchange and creation of knowledge for intellectual, social, political, moral and material development of the society. Prof. A. K. Mohapatra, is presently Head of Department of IT. He earned his Phd in IT from GGSIP University and M.Tech from IIT(ISM), Dhanbad. His areas of specialization are Cryptography and Cyber security. He has published more 47 research papers in referred journals and conferences."
  
- utter_Architecture_Planning:
+utter_Architecture_Planning:
  - text: "The Department of Architecture and Planning started in 2015 as a step towards social equity and gender parity in technical professions, having a vision that architectural education should empower students to become protagonists of positive change by exploring, learning and practising a sustainable form of architecture. Head of Department is Mr. Vishal Rai"
 
 utter_MECHANICAL_AUTOMATION:
