@@ -599,7 +599,7 @@ nlu:
    - Department of Management
    - Management Department
 
-- intent: ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+- intent: ARTIFICIAL_INTELLIGENCE
   examples: |
    - Department of Artificial Intelligence
    - Artificial Intelligence and Data science
