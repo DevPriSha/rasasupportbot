@@ -16,7 +16,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,7 +45,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -65,7 +61,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -82,7 +77,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -167,7 +161,6 @@ nlu:
     - Guidance/Support for students regarding career/education/research/placements
     - Coding Community/Research Community
   
-
  
 - intent: hours
   examples: |
@@ -206,7 +199,6 @@ nlu:
     - how can i call you
     - call
     - phone number
-
 - intent: course
   examples: |
     - list of courses
@@ -218,7 +210,6 @@ nlu:
     - what are branches in IGDTUW?
     - can you tell me the courses available in igdtuw?
     - can you tell me the branches available in igdtuw?
-
 - intent: BTech
   examples: |
     - how many B  Tech streams
@@ -226,13 +217,11 @@ nlu:
     - branches in btech available
     - b tech fields available
     - engineering courses
-
 - intent: Mtech
   examples: |
     - how many m tech streams
     - m tech fields available
     - branches in mtech available
-
 - intent: Ph.D.
   examples: |
     - how many Ph.D. streams
@@ -241,7 +230,6 @@ nlu:
     - phd streams
     - phd fields
     - doctorate courses
-
 - intent: fees
   examples: |
     - information about fee
@@ -252,7 +240,6 @@ nlu:
     - how much is the fees
     - tuition fees
     - hostel fees
-
 - intent: location
   examples: |
     - where is the college located
@@ -264,7 +251,6 @@ nlu:
     - what is the address of college
     - location
     - address
-
 - intent: hostel
   examples: |
     - hostel facility
@@ -272,7 +258,6 @@ nlu:
     - hostel location
     - hostel facilities
     - living in campus
-
 - intent: events
   examples: |
     - events organised
@@ -282,7 +267,6 @@ nlu:
     - what are the events
     - functions
     - events
-
 - intent: document
   examples: |
     - document to bring
@@ -327,7 +311,6 @@ nlu:
     - package
     - recruitment
     - companies
-
 - intent: applied_science_hod
   examples: |
     - Who is applied sciences hod
@@ -337,7 +320,6 @@ nlu:
     - applied sciences hod
     - humanities head of department
     - applied sciences and humanities head
-
 - intent: cse_hod
   examples: |
     - Who is CSE hod
@@ -368,7 +350,6 @@ nlu:
     - Electronics and Communication Engineering HOD
     - ECE head of department 
     - electronics head
-
 - intent: it_hod
   examples: |
     - Who is IT hod
@@ -383,7 +364,6 @@ nlu:
     - Information Technology HOD
     - IT head of department
     - information technology head
-
 - intent: architecture_hod
   examples: |
     - Who is architecture hod
@@ -393,7 +373,6 @@ nlu:
     - architecture department HOD
     - dap hod
     - dap head of department
-
 - intent: mech_hod
   examples: |
     - Who is mechanical hod
@@ -403,7 +382,6 @@ nlu:
     - mechanical department HOD
     - mechanical head 
     - mae head of department
-
 - intent: management_hod
   examples: |
     - Who is management hod
@@ -413,7 +391,6 @@ nlu:
     - management department HOD
     - management head
     - mgmt head of department
-
 - intent: ai_hod
   examples: |
     - Who is AI hod
@@ -428,7 +405,6 @@ nlu:
     - Artificial Intelligence department HOD
     - AI head
     - artificial intelligence head of department
-
 - intent: chancellor
   examples: |
     - what is the name of vice chancellor
@@ -439,7 +415,6 @@ nlu:
     - vice chancellor
     - name of vice chancellor
     - chancellor
-
 - intent: ragging
   examples: |
     - ragging
@@ -459,7 +434,6 @@ nlu:
     - are there any ragging cases
     - facilities
     - facilities provided
-
 - intent: college_intake
   examples: |
     - max number of students
@@ -482,7 +456,6 @@ nlu:
     - uniform
     - what about uniform
     - do we have to wear uniform
-
 - intent: committee
   examples: |
     - what are the different committe in college
@@ -491,7 +464,6 @@ nlu:
     - Give me committee details
     - committee
     - how many committee are there in college
-
 - intent: vacation
   examples: |
     - holidays
@@ -504,7 +476,6 @@ nlu:
     - When is vacation
     - When is holidays
     - how long will be the vacation
-
 - intent: task
   examples: |
     - what can you do
@@ -513,7 +484,6 @@ nlu:
     - what can you do for me
     - how you can help me
     - why i should use you
-
 - intent: transport
   examples: |
     - dtc bus route
@@ -527,7 +497,6 @@ nlu:
     - nearest bus stop
     - where do I take the bus for 
     - bus stand
-
 - intent: metro
   examples: |
     - nearest metro station
@@ -538,7 +507,6 @@ nlu:
     - nearby metro stations
     - metro
     - metro station nearby
-
 - intent: applied_sciences
   examples: |
     - department of applied sciences
@@ -555,7 +523,6 @@ nlu:
    - cse department
    - cse
    - computer science
-
 - intent: ece
   examples: |
    - department of electronics and communication engineering 
@@ -564,7 +531,6 @@ nlu:
    - department of electronics and communication
    - ece department 
    - electronics and communication engineering department
-
 - intent: it
   examples: |
    - department of information technology
@@ -581,7 +547,7 @@ nlu:
     - In which direction is [Library](location)?
     
 - intent: Architecture_Planning
-   examples: |
+  examples: |
     - Architecture and Planning department
     - Architecture and Planning department Management
     - Planning Department
@@ -598,12 +564,12 @@ nlu:
   examples: |
    - Department of Management
    - Management Department
-
 - intent: ARTIFICIAL_INTELLIGENCE
   examples: |
    - Department of Artificial Intelligence
    - Artificial Intelligence and Data science
    - AI department 
-   - Data Science and AI Department 
+   - Data Science and AI Department
+
 
 
