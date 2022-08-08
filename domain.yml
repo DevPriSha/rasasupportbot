@@ -35,14 +35,6 @@ intents:
   - library
   - infrastructure
   - placement
-  - applied_science_hod
-  - cse_hod
-  - ece_hod
-  - it_hod
-  - architecture_hod
-  - mech_hod
-  - management_hod
-  - ai_hod
   - chancellor
   - ragging
   - facilities
@@ -142,30 +134,6 @@ responses:
  
   utter_placement:
   - text: "The Training and Placement Cell facilitates the campus placement program at IGDTUW. The cell comprises a highly energetic and dynamic team of students and faculty members. for more details please visit our website"
-
-  utter_applied_science_hod:
-  - text: "Prof. Chhaya Ravi Kant is HOD of Applied Sciences and Humanities department. For more information visit our website"
-
-  utter_cse_hod:
-  - text: "Prof. Seeja K.R. is HOD of Computer Science $ Engineering department. For more information visit our website"
-
-  utter_ece_hod:
-  - text: "Dr. Nidhi Goel is HOD of Electronics and communication Engineering department. For more information visit our website"
-
-  utter_it_hod:
-  - text: "Prof. Amar k. Mohapatra is HOD of Information Technology department. For more information visit our website"
-
-  utter_architecture_hod:
-  - text: "Ar. Vishal Rai is HOD of Architecture and Planning department. For more information visit our website"
-
-  utter_mech_hod:
-  - text: "Prof. Nathi Ram Chauhan is HOD of Mechanical and Automation department. For more information visit our website"
-
-  utter_management_hod:
-  - text: "Prof. Shalini Arora is HOD of Management department. For more information visit our website"
-
-  utter_ai_hod:
-  - text: "Prof. Poonam Bansal is HOD of Artificial intelligence department. For more information visit our website"
 
   utter_chancellor:
   - text: "Dr.Anil Baijal is chancellor and Dr.Amita Dev is vice chancellor of university. To know more about university administration visit our website"

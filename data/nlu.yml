@@ -320,30 +320,76 @@ nlu:
     - humanities department
     - applied sciences
     - applied sciences and humanities
+    - Who is applied sciences hod
+    - Where is applied sciences hod
+    - applied sciences and humanities hod
+    - name of applied sciences and humanities hod
+    - applied sciences hod
+    - humanities head of department
+    - applied sciences and humanities head
   
 - intent: cse
   examples: |
-   - department of computer science and engineering
-   - department of cse
-   - cse department
-   - cse
-   - computer science
+    - department of computer science and engineering
+    - department of cse
+    - cse department
+    - cse
+    - computer science
+    - Who is CSE hod
+    - Where is CSE hod
+    - CSE department hod
+    - name of CSE hod
+    - CSE HOD
+    - Who is Computer Science hod
+    - Where is Computer Science hod
+    - Computer Science Engineering department hod
+    - name of Computer Science Engineering hod
+    - Computer Science HOD
+    - CSE head of department
+    - computer science engineering head
+
 - intent: ece
   examples: |
-   - department of electronics and communication engineering 
-   - department of ece
-   - electronics and communication engineering
-   - department of electronics and communication
-   - ece department 
-   - electronics and communication engineering department
+    - department of electronics and communication engineering 
+    - department of ece
+    - electronics and communication engineering
+    - department of electronics and communication
+    - ece department 
+    - electronics and communication engineering department
+    - Who is ECE hod
+    - Where is ECE hod
+    - ECE department hod
+    - name of ECE hod
+    - ECE HOD
+    - Who is Electronics and Communication Engineering hod
+    - Where is Electronics and Communication Engineering hod
+    - Electronics and Communication Engineering department hod
+    - name of Electronics and Communication Engineering hod
+    - Electronics and Communication Engineering HOD
+    - ECE head of department 
+    - electronics head
+
 - intent: it
   examples: |
-   - department of information technology
-   - department of IT
-   - information technology department
-   - IT department 
-   - information technology
-   - IT
+    - department of information technology
+    - department of IT
+    - information technology department
+    - IT department 
+    - information technology
+    - IT
+    - Who is IT hod
+    - Where is IT hod
+    - IT department HOD
+    - name of IT hod
+    - IT HOD
+    - Who is Information Technology hod
+    - Where is Information Technology hod
+    - Information Technology department HOD
+    - name of Information Technology hod
+    - Information Technology HOD
+    - IT head of department
+    - information technology head
+
 - intent: mapping
   examples: |
     - Where is [Admin Block](location)?
@@ -357,80 +403,6 @@ nlu:
     - Architecture and Planning department Management
     - Planning Department
     - Architecture department
-    
-- intent: MECHANICAL_AUTOMATION 
-  examples: |
-   - MECHANICAL AND AUTOMATION ENGINEERING
-   - Mechanical Department
-   - Automation Engineering
-   - Mechanical Engineering
-   
-- intent: MANAGEMENT
-  examples: |
-   - Department of Management
-   - Management Department
-- intent: ARTIFICIAL_INTELLIGENCE
-  examples: |
-   - Department of Artificial Intelligence
-   - Artificial Intelligence and Data science
-   - AI department 
-   - Data Science and AI Department
-
-- intent: applied_science_hod
-  examples: |
-    - Who is applied sciences hod
-    - Where is applied sciences hod
-    - applied sciences and humanities hod
-    - name of applied sciences and humanities hod
-    - applied sciences hod
-    - humanities head of department
-    - applied sciences and humanities head
-- intent: cse_hod
-  examples: |
-    - Who is CSE hod
-    - Where is CSE hod
-    - CSE department hod
-    - name of CSE hod
-    - CSE HOD
-    - Who is Computer Science hod
-    - Where is Computer Science hod
-    - Computer Science Engineering department hod
-    - name of Computer Science Engineering hod
-    - Computer Science HOD
-    - CSE head of department
-    - computer science engineering head
-    
-    
-- intent: ece_hod
-  examples: |
-    - Who is ECE hod
-    - Where is ECE hod
-    - ECE department hod
-    - name of ECE hod
-    - ECE HOD
-    - Who is Electronics and Communication Engineering hod
-    - Where is Electronics and Communication Engineering hod
-    - Electronics and Communication Engineering department hod
-    - name of Electronics and Communication Engineering hod
-    - Electronics and Communication Engineering HOD
-    - ECE head of department 
-    - electronics head
-- intent: it_hod
-  examples: |
-    - Who is IT hod
-    - Where is IT hod
-    - IT department HOD
-    - name of IT hod
-    - IT HOD
-    - Who is Information Technology hod
-    - Where is Information Technology hod
-    - Information Technology department HOD
-    - name of Information Technology hod
-    - Information Technology HOD
-    - IT head of department
-    - information technology head
-- intent: architecture_hod
-  examples: |
     - Who is architecture hod
     - Where is architecture hod
     - architecture hod
@@ -438,8 +410,13 @@ nlu:
     - architecture department HOD
     - dap hod
     - dap head of department
-- intent: mech_hod
+    
+- intent: MECHANICAL_AUTOMATION 
   examples: |
+    - MECHANICAL AND AUTOMATION ENGINEERING
+    - Mechanical Department
+    - Automation Engineering
+    - Mechanical Engineering
     - Who is mechanical hod
     - Where is mechanical hod
     - mechanical hod
@@ -447,8 +424,11 @@ nlu:
     - mechanical department HOD
     - mechanical head 
     - mae head of department
-- intent: management_hod
+   
+- intent: MANAGEMENT
   examples: |
+    - Department of Management
+    - Management Department
     - Who is management hod
     - Where is management hod
     - management hod
@@ -456,20 +436,7 @@ nlu:
     - management department HOD
     - management head
     - mgmt head of department
-- intent: ai_hod
-  examples: |
-    - Who is AI hod
-    - Where is AI hod
-    - AI hod
-    - name of AI hod
-    - AI department HOD
-    - Who is Artificial Intelligence hod
-    - Where is Artificial Intelligence hod
-    - Artificial Intelligence hod
-    - name of Artificial Intelligence hod
-    - Artificial Intelligence department HOD
-    - AI head
-    - artificial intelligence head of department
+
 - intent: chancellor
   examples: |
     - what is the name of vice chancellor
@@ -480,6 +447,7 @@ nlu:
     - vice chancellor
     - name of vice chancellor
     - chancellor
+
 - intent: ragging
   examples: |
     - ragging
@@ -529,6 +497,7 @@ nlu:
     - Give me committee details
     - committee
     - how many committee are there in college
+
 - intent: vacation
   examples: |
     - holidays
@@ -541,6 +510,7 @@ nlu:
     - When is vacation
     - When is holidays
     - how long will be the vacation
+
 - intent: task
   examples: |
     - what can you do
@@ -549,6 +519,7 @@ nlu:
     - what can you do for me
     - how you can help me
     - why i should use you
+
 - intent: transport
   examples: |
     - dtc bus route
@@ -562,6 +533,7 @@ nlu:
     - nearest bus stop
     - where do I take the bus for 
     - bus stand
+    
 - intent: metro
   examples: |
     - nearest metro station
