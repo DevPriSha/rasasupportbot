@@ -196,7 +196,8 @@ responses:
   utter_ARTIFICIAL_INTELLIGENCE :
   - text: “Artificial Intelligence (AI) is transforming business, industry, government, social interaction and research. The growth of AI and data sciences as a discipline has been rapid in the last decade. The newly established Department of Artificial Intelligence and Data Science (AI&DS) in the university aims to focus on a four-tiered strategy of Education, Research, Development and Innovation (ERDI Strategy) in the field of AI, Machine Learning, Deep Learning and Data Sciences. Head of Department is Prof. Poonam Bansal, her areas of interest are Speech Technology, NLP, Image Processing, Pattern Recognition”
  
-
+  utter_Business_Blasters_Programme:
+  - text: "Yes, IGDTUW is providing BBA-IEV Programme. it is currently enrolling 30 students in this programme. the admissions are already started from 5th August 2022. the fee structure for the admission is available on the official site of IGDTUW"
   
 session_config:
   session_expiration_time: 60
