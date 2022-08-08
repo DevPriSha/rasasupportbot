@@ -221,3 +221,7 @@ rules:
   steps: 
   - intent: it
   - action: utter_it
+- rule: mapping
+  steps:
+  - intent: mapping
+  - action: utter_mapping
