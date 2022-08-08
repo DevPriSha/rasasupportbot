@@ -201,3 +201,23 @@ rules:
   steps:
   - intent: metro
   - action: utter_metro
+
+- rule: applied_sciences
+  steps:
+  - intent: applied_sciences
+  - action: utter_applied_sciences
+
+- rule: cse
+  steps:
+  - intent: cse
+  - action: utter_cse
+
+- rule: ece
+  steps:
+  - intent: ece
+  - action: utter_ece
+
+- rule: it
+  steps: 
+  - intent: it
+  - action: utter_it
