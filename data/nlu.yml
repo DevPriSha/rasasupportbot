@@ -580,14 +580,14 @@ nlu:
     - How can I go to [CSE Dept](location)?
     - In which direction is [Library](location)?
     
- - intent: Architecture_Planning
+- intent: Architecture_Planning
    examples: |
     - Architecture and Planning department
     - Architecture and Planning department Management
     - Planning Department
     - Architecture department
     
- - intent: MECHANICAL_AUTOMATION 
+- intent: MECHANICAL_AUTOMATION 
   examples: |
    - MECHANICAL AND AUTOMATION ENGINEERING
    - Mechanical Department
