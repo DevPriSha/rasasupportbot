@@ -311,6 +311,71 @@ nlu:
     - package
     - recruitment
     - companies
+
+- intent: applied_sciences
+  examples: |
+    - department of applied sciences
+    - department of applied sciences and humanities
+    - applied sciences department
+    - humanities department
+    - applied sciences
+    - applied sciences and humanities
+  
+- intent: cse
+  examples: |
+   - department of computer science and engineering
+   - department of cse
+   - cse department
+   - cse
+   - computer science
+- intent: ece
+  examples: |
+   - department of electronics and communication engineering 
+   - department of ece
+   - electronics and communication engineering
+   - department of electronics and communication
+   - ece department 
+   - electronics and communication engineering department
+- intent: it
+  examples: |
+   - department of information technology
+   - department of IT
+   - information technology department
+   - IT department 
+   - information technology
+   - IT
+- intent: mapping
+  examples: |
+    - Where is [Admin Block](location)?
+    - How to reach [Admin Block](location)?
+    - How can I go to [CSE Dept](location)?
+    - In which direction is [Library](location)?
+    
+- intent: Architecture_Planning
+  examples: |
+    - Architecture and Planning department
+    - Architecture and Planning department Management
+    - Planning Department
+    - Architecture department
+    
+- intent: MECHANICAL_AUTOMATION 
+  examples: |
+   - MECHANICAL AND AUTOMATION ENGINEERING
+   - Mechanical Department
+   - Automation Engineering
+   - Mechanical Engineering
+   
+- intent: MANAGEMENT
+  examples: |
+   - Department of Management
+   - Management Department
+- intent: ARTIFICIAL_INTELLIGENCE
+  examples: |
+   - Department of Artificial Intelligence
+   - Artificial Intelligence and Data science
+   - AI department 
+   - Data Science and AI Department
+
 - intent: applied_science_hod
   examples: |
     - Who is applied sciences hod
@@ -507,69 +572,6 @@ nlu:
     - nearby metro stations
     - metro
     - metro station nearby
-- intent: applied_sciences
-  examples: |
-    - department of applied sciences
-    - department of applied sciences and humanities
-    - applied sciences department
-    - humanities department
-    - applied sciences
-    - applied sciences and humanities
-  
-- intent: cse
-  examples: |
-   - department of computer science and engineering
-   - department of cse
-   - cse department
-   - cse
-   - computer science
-- intent: ece
-  examples: |
-   - department of electronics and communication engineering 
-   - department of ece
-   - electronics and communication engineering
-   - department of electronics and communication
-   - ece department 
-   - electronics and communication engineering department
-- intent: it
-  examples: |
-   - department of information technology
-   - department of IT
-   - information technology department
-   - IT department 
-   - information technology
-   - IT
-- intent: mapping
-  examples: |
-    - Where is [Admin Block](location)?
-    - How to reach [Admin Block](location)?
-    - How can I go to [CSE Dept](location)?
-    - In which direction is [Library](location)?
-    
-- intent: Architecture_Planning
-  examples: |
-    - Architecture and Planning department
-    - Architecture and Planning department Management
-    - Planning Department
-    - Architecture department
-    
-- intent: MECHANICAL_AUTOMATION 
-  examples: |
-   - MECHANICAL AND AUTOMATION ENGINEERING
-   - Mechanical Department
-   - Automation Engineering
-   - Mechanical Engineering
-   
-- intent: MANAGEMENT
-  examples: |
-   - Department of Management
-   - Management Department
-- intent: ARTIFICIAL_INTELLIGENCE
-  examples: |
-   - Department of Artificial Intelligence
-   - Artificial Intelligence and Data science
-   - AI department 
-   - Data Science and AI Department
 
 
 
