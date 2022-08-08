@@ -225,3 +225,23 @@ rules:
   steps:
   - intent: mapping
   - action: utter_mapping
+  
+- rule: Architecture_Planning
+  steps:
+   - intent: Architecture_Planning
+   - action: utter_Architecture_Planning
+ 
+- rule: MECHANICAL_AUTOMATION
+  steps:
+   - intent: MECHANICAL_AUTOMATION
+   - action: utter_MECHANICAL_AUTOMATION
+   
+- rule: MANAGEMENT
+  steps:
+   - intent: MANAGEMENT
+   - action: utter_MANAGEMENT
+   
+- rule: ARTIFICIAL_INTELLIGENCE
+  steps:
+   - intent: ARTIFICIAL_INTELLIGENCE
+   - action: utter_ARTIFICIAL_INTELLIGENCE
