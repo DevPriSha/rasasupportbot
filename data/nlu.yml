@@ -334,9 +334,9 @@ nlu:
     - Where is applied sciences hod
     - applied sciences and humanities hod
     - name of applied sciences and humanities hod
-    - applied sciences
-    - humanities
-    - applied sciences and humanities
+    - applied sciences hod
+    - humanities head of department
+    - applied sciences and humanities head
 
 - intent: cse_hod
   examples: |
@@ -350,6 +350,8 @@ nlu:
     - Computer Science Engineering department hod
     - name of Computer Science Engineering hod
     - Computer Science HOD
+    - CSE head of department
+    - computer science engineering head
     
     
 - intent: ece_hod
@@ -364,6 +366,8 @@ nlu:
     - Electronics and Communication Engineering department hod
     - name of Electronics and Communication Engineering hod
     - Electronics and Communication Engineering HOD
+    - ECE head of department 
+    - electronics head
 
 - intent: it_hod
   examples: |
@@ -377,6 +381,8 @@ nlu:
     - Information Technology department HOD
     - name of Information Technology hod
     - Information Technology HOD
+    - IT head of department
+    - information technology head
 
 - intent: architecture_hod
   examples: |
@@ -385,6 +391,8 @@ nlu:
     - architecture hod
     - name of architecture hod
     - architecture department HOD
+    - dap hod
+    - dap head of department
 
 - intent: mech_hod
   examples: |
@@ -393,6 +401,8 @@ nlu:
     - mechanical hod
     - name of mechanical hod
     - mechanical department HOD
+    - mechanical head 
+    - mae head of department
 
 - intent: management_hod
   examples: |
@@ -401,6 +411,8 @@ nlu:
     - management hod
     - name of management hod
     - management department HOD
+    - management head
+    - mgmt head of department
 
 - intent: ai_hod
   examples: |
@@ -414,6 +426,8 @@ nlu:
     - Artificial Intelligence hod
     - name of Artificial Intelligence hod
     - Artificial Intelligence department HOD
+    - AI head
+    - artificial intelligence head of department
 
 - intent: chancellor
   examples: |
@@ -510,6 +524,9 @@ nlu:
     - bus routes
     - does 729 goes to college
     - does 729 goes to kashmere gate
+    - nearest bus stop
+    - where do I take the bus for 
+    - bus stand
 
 - intent: metro
   examples: |
@@ -522,5 +539,9 @@ nlu:
     - metro
     - metro station nearby
 
-
-
+- intent: mapping
+  examples: |
+    - Where is [Admin Block](location)?
+    - How to reach [Admin Block](location)?
+    - How can I go to [CSE Dept](location)?
+    - In which direction is [Library](location)?
