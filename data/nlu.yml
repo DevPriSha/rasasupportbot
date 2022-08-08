@@ -539,5 +539,13 @@ nlu:
     - metro
     - metro station nearby
 
-
+- intent: Business Blasters Programme
+  examples: |
+    - Is IGDTUW providing BBA-IEV programme
+    - When is the admission procedure starting
+    - when is the admissions starting
+    - what is the fee
+    - what is the fee structure
+    - what is the fee structure of BBA-IEV programme
+    - how many students can take admission
 
