@@ -201,3 +201,8 @@ rules:
   steps:
    - intent: ARTIFICIAL_INTELLIGENCE
    - action: utter_ARTIFICIAL_INTELLIGENCE
+
+- rule: Business_Blaster_Programme
+  steps:
+   - intent: Business_Blasters_Programme
+   - action: utter_Business_Blasters_Programme
