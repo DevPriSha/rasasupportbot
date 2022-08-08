@@ -548,31 +548,40 @@ nlu:
     - applied sciences
     - applied sciences and humanities
   
+- intent: applied_sciences
+  examples: |
+    - department of applied sciences
+    - department of applied sciences and humanities
+    - applied sciences department
+    - humanities department
+    - applied sciences
+    - applied sciences and humanities
+  
 - intent: cse
   examples: |
-  - department of computer science and engineering
-  - department of cse
-  - cse department
-  - cse
-  - computer science
+   - department of computer science and engineering
+   - department of cse
+   - cse department
+   - cse
+   - computer science
 
 - intent: ece
   examples: |
-  - department of electronics and communication engineering 
-  - department of ece
-  - electronics and communication engineering
-  - department of electronics and communication
-  - ece department 
-  - electronics and communication engineering department
+   - department of electronics and communication engineering 
+   - department of ece
+   - electronics and communication engineering
+   - department of electronics and communication
+   - ece department 
+   - electronics and communication engineering department
 
 - intent: it
   examples: |
-  - department of information technology
-  - department of IT
-  - information technology department
-  - IT department 
-  - information technology
-  - IT
+   - department of information technology
+   - department of IT
+   - information technology department
+   - IT department 
+   - information technology
+   - IT
 - intent: mapping
   examples: |
     - Where is [Admin Block](location)?
