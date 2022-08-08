@@ -53,6 +53,10 @@ intents:
   - committee 
   - vacation
   - task
+  - Architecture_Planning
+  - MECHANICAL_AUTOMATION
+  - MANAGEMENT
+  - ARTIFICIAL_INTELLIGENCE
   
   
   
@@ -206,6 +210,20 @@ responses:
 
   utter_it:
   - text: "Department of IT aims to prepare students to undertake careers involving innovation and problem solving using IT, or to undertake advanced studies for research careers in IT. It aims to emerge as a centre of excellence in leveraging information technology to stimulate the exchange and creation of knowledge for intellectual, social, political, moral and material development of the society. Prof. A. K. Mohapatra, is presently Head of Department of IT. He earned his Phd in IT from GGSIP University and M.Tech from IIT(ISM), Dhanbad. His areas of specialization are Cryptography and Cyber security. He has published more 47 research papers in referred journals and conferences."
+ 
+ utter_Architecture_Planning:
+ - text: "The Department of Architecture and Planning started in 2015 as a step towards social equity and gender parity in technical professions, having a vision that architectural education should empower students to become protagonists of positive change by exploring, learning and practising a sustainable form of architecture. Head of Department is Mr. Vishal Rai"
+
+utter_MECHANICAL_AUTOMATION:
+ - text: "A strong high-rise building can be built only on a strong foundation, which signifies the importance of the Department of Applied Sciences. The important objective of the Department is to prepare and train the first year B. Tech students in Physics, Chemistry, Mathematics and Communication skills with an applied approach. The Applied Sciences Department constitutes of eight highly qualified faculties of respective subjects. The department has two well equipped laboratories of Applied Chemistry/ Environmental Studies and Applied Physics with trained staff. In addition, we have three research labs – Nanomaterials and Thin Films Lab, Environmental Analysis and Research Lab and Digital Signal and Processing Lab where research and development is being undertaken in the field of Material Sciences, Nanomaterials and Nanotechnology, Atmospheric Chemistry, Environmental Monitoring and Analysis, Multi-aperture Imaging, Feature Specific Imaging, Spatial Light Modulators Optical Components and Devices, Optical Designs Adaptive Systems, Neural Networks Matlab. Head of Department is Prof. Nathi Ram Chauhan "
+ 
+utter_MANAGEMENT :
+ -text: “University has started Department of Management under the Faculty of Business Studies in 2019. The Department has the vision to be recognized globally as the destination for future leaders and become a centre of excellence in management education by creating a knowledge society and promoting the Centres of Excellence in the field of business education. Head of Department is Prof. (Dr.) Arvind Kr. Jayant”
+ 
+utter_ARTIFICIAL_INTELLIGENCE :
+ -text: “Artificial Intelligence (AI) is transforming business, industry, government, social interaction and research. The growth of AI and data sciences as a discipline has been rapid in the last decade. The newly established Department of Artificial Intelligence and Data Science (AI&DS) in the university aims to focus on a four-tiered strategy of Education, Research, Development and Innovation (ERDI Strategy) in the field of AI, Machine Learning, Deep Learning and Data Sciences. Head of Department is Prof. Poonam Bansal”
+
+
   
 session_config:
   session_expiration_time: 60
