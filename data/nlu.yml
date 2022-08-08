@@ -579,3 +579,31 @@ nlu:
     - How to reach [Admin Block](location)?
     - How can I go to [CSE Dept](location)?
     - In which direction is [Library](location)?
+    
+ - intent: Architecture_Planning
+   examples: |
+    - Architecture and Planning department
+    - Architecture and Planning department Management
+    - Planning Department
+    - Architecture department
+    
+ - intent: MECHANICAL_AUTOMATION 
+  examples: |
+   - MECHANICAL AND AUTOMATION ENGINEERING
+   - Mechanical Department
+   - Automation Engineering
+   - Mechanical Engineering
+   
+- intent: MANAGEMENT
+  examples: |
+   - Department of Management
+   - Management Department
+
+- intent: ARTIFICIAL_INTELLIGENCE
+  examples: |
+   - Department of Artificial Intelligence
+   - Artificial Intelligence and Data science
+   - AI department 
+   - Data Science and AI Department 
+
+
