@@ -201,3 +201,8 @@ rules:
   steps:
   - intent: metro
   - action: utter_metro
+
+- rule: mapping
+  steps:
+  - intent: mapping
+  - action: utter_mapping
