@@ -542,6 +542,9 @@ nlu:
 - intent: Business_Blasters_Programme
   examples: |
     - Is IGDTUW providing BBA-IEV programme
+    - Business Blasters Programme
+    - What is BBA-IEV?
+    - Tell me something about BBA IEV
     - When is the admission procedure starting
     - when is the admissions starting
     - what is the fee
