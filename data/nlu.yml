@@ -320,6 +320,69 @@ nlu:
     - humanities department
     - applied sciences
     - applied sciences and humanities
+  
+- intent: cse
+  examples: |
+   - department of computer science and engineering
+   - department of cse
+   - cse department
+   - cse
+   - computer science
+- intent: ece
+  examples: |
+   - department of electronics and communication engineering 
+   - department of ece
+   - electronics and communication engineering
+   - department of electronics and communication
+   - ece department 
+   - electronics and communication engineering department
+- intent: it
+  examples: |
+   - department of information technology
+   - department of IT
+   - information technology department
+   - IT department 
+   - information technology
+   - IT
+- intent: mapping
+  examples: |
+    - Where is [Admin Block](map)?
+    - How to reach [Admin Block](map)?
+    - How can I go to [CSE Dept](map)?
+    - In which direction is [Library](map)?
+    - Where is [AI Department](map)?
+    - Where is [VC Office](map)?
+    - Where is [Mechanical Block](map)?
+    - Where is [TNP Cell](map)?
+    - Where is [Placement Office](map)?
+    
+- intent: Architecture_Planning
+  examples: |
+    - Architecture and Planning department
+    - Architecture and Planning department Management
+    - Planning Department
+    - Architecture department
+    
+- intent: MECHANICAL_AUTOMATION 
+  examples: |
+   - MECHANICAL AND AUTOMATION ENGINEERING
+   - Mechanical Department
+   - Automation Engineering
+   - Mechanical Engineering
+   
+- intent: MANAGEMENT
+  examples: |
+   - Department of Management
+   - Management Department
+- intent: ARTIFICIAL_INTELLIGENCE
+  examples: |
+   - Department of Artificial Intelligence
+   - Artificial Intelligence and Data science
+   - AI department 
+   - Data Science and AI Department
+
+- intent: applied_science_hod
+  examples: |
     - Who is applied sciences hod
     - Where is applied sciences hod
     - applied sciences and humanities hod
