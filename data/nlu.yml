@@ -1,6 +1,47 @@
 version: "3.0"
 
 nlu:
+
+- lookup: map
+  examples: |
+    - Admin Block
+    - VC Office
+    - Architecture Block
+    - Parking
+    - Entrance
+    - Auditorium
+    - Dispensary
+    - Department of Management
+    - ASH Department
+    - PG Block
+    - IT Block
+    - AI and Data Sciences Department
+    - Krishna Hostel
+    - Hostel
+    - Kaveri Hostel
+    - PG Block
+    - Anveshan Foundation
+    - CSE Block
+    - ECE Block
+    - Mechanical Block
+    - TNP Office
+    - Nescafe
+    - Cafeteria
+    - Knowledge Park
+    - Library
+    - Computer Learning Centre
+    - ICT 
+    - Academic Branch
+    - Canteen
+    - Tuck Shop
+    - Exam Department
+    - Accounts Branch
+    - Dean Office
+    - Registrar Office
+
+# add synonyms for all words
+
+
 - intent: greet
   examples: |
     - hey

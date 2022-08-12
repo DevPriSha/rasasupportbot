@@ -139,7 +139,7 @@ responses:
   - text: "The Training and Placement Cell facilitates the campus placement program at IGDTUW. The cell comprises a highly energetic and dynamic team of students and faculty members. for more details please visit our website"
 
   utter_chancellor:
-  - text: "Dr.Anil Baijal is chancellor and Dr.Amita Dev is vice chancellor of university. To know more about university administration visit our website"
+  - text: "Shri. Vinai Kumar Saxena is chancellor and Dr. Amita Dev is vice chancellor of university. To know more about university administration visit our website"
 
   utter_ragging:
   - text: "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
@@ -201,10 +201,12 @@ responses:
 
   utter_mapping :
   - text: "Here's a map of university for your reference"
-    image: "https://i.imgur.com/EOGKbaG.jpeg"
+    image: "https://i.imgur.com/bUHcT0l.png"
  
   utter_Business_Blasters_Programme:
   - text: "Yes, IGDTUW is providing BBA-IEV Programme. it is currently enrolling 30 students in this programme. the admissions are already started from 5th August 2022. the fee structure for the admission is available on the official site of IGDTUW"
+
+
   
 session_config:
   session_expiration_time: 60

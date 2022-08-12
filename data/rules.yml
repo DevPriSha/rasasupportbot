@@ -206,3 +206,8 @@ rules:
   steps:
    - intent: Business_Blasters_Programme
    - action: utter_Business_Blasters_Programme
+
+- rule: Display map
+  steps:
+   - intent: mapping
+   - action: utter_mapping
