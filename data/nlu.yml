@@ -147,6 +147,21 @@ nlu:
     - Mid-term exam schedule
     - MCA exam dates
     - MCA exam schedule
+    - Exam procedure for Graduation
+    - Exam procedure for BTech courses
+    - Exam procedure for admission to Post-graduation course
+    - Exam procedure for Phd admission
+    - Exam procedure for MCA admission
+    - Exam procedure for BBA course
+    - Exam procedure for MBA course
+    
+    
+- intent: Current_exam_status
+  examples: |
+    - Current status of upcoming exams
+    - upcoming exam schedule
+    - upcoming admissions open at IGDTUW
+    - Admissions in IGDTUW
  
 - intent: admission_procedure
   examples: |
@@ -170,6 +185,9 @@ nlu:
     - MCA admission procedure
     - Barch admission procedure
     - Management admission procedure
+    - about mtech cse ai programme
+    - About Dual degree program
+    - MAE BBA programme
     - How many courses are there in graduation program
     - Courses offered in IGDTUW
  
@@ -179,7 +197,37 @@ nlu:
     - What programs does the University offer?
     - What programs are offered?
     - What is the syllabus of IT first semester?
- 
+    - Btech CSE course syllabus
+    - Btech ECE course syllabus
+    - Btech IT syllabus
+    - Btech MAE syllabus
+    - Barch syllabus
+    - Btech cseai syllabus
+    - Btech ece ai syllabus
+    - Btech Dual degree syllabus
+    - Mtech CSE syllabus
+    - Mtech Ai and Datascience syllabus 
+    - mtech IT Cyber security syllabus
+    - mtech VLSI course
+    - Mlan course
+    - Mtech robotics and AI course
+    - Mtech robotics and AI
+    - Mtech Robotics
+
+- intent: scholarships
+  examples: | 
+    - Are there any financial options for the students
+    - Scholarship opportunities
+    - Financial assistance for the students
+    - options of financial help
+
+- intent: MOUs
+  example: |
+    - How many MoUs signed by IGDTUW
+    - International MoUs
+    - National MoUs
+    - Technical MoUs
+   
 - intent: examination_grading
   examples: |
     - How is the normalisation process and relative grading implemented?
@@ -274,6 +322,7 @@ nlu:
     - how can i call you
     - call
     - phone number
+    
 - intent: course
   examples: |
     - list of courses
@@ -285,18 +334,30 @@ nlu:
     - what are branches in IGDTUW?
     - can you tell me the courses available in igdtuw?
     - can you tell me the branches available in igdtuw?
+    
 - intent: BTech
   examples: |
-    - how many B  Tech streams
+    - how many BTech streams
     - btech streams available
     - branches in btech available
-    - b tech fields available
+    - btech fields available
     - engineering courses
+    - Btech course subjects
+    - Graduation subjects
+    - UG courses
+    - Btech syllabus
+    
 - intent: Mtech
   examples: |
     - how many m tech streams
-    - m tech fields available
+    - mtech fields available
     - branches in mtech available
+    - PG courses
+    - Post-Grad subjects
+    - Mtech cpurse subjects
+    - Mtech syllabus
+    
+    
 - intent: Ph.D.
   examples: |
     - how many Ph.D. streams
@@ -305,6 +366,8 @@ nlu:
     - phd streams
     - phd fields
     - doctorate courses
+    - phd courses
+    
 - intent: fees
   examples: |
     - information about fee
@@ -315,6 +378,12 @@ nlu:
     - how much is the fees
     - tuition fees
     - hostel fees
+    - Btech fee strcture
+    - BBA-IEV fee structure
+    - Mtech fee structure
+    - PhD fee structure
+    -Btech AI and Data science fee
+    
 - intent: location
   examples: |
     - where is the college located
@@ -326,6 +395,7 @@ nlu:
     - what is the address of college
     - location
     - address
+    
 - intent: hostel
   examples: |
     - hostel facility
@@ -333,6 +403,7 @@ nlu:
     - hostel location
     - hostel facilities
     - living in campus
+    
 - intent: events
   examples: |
     - events organised
@@ -342,6 +413,7 @@ nlu:
     - what are the events
     - functions
     - events
+    
 - intent: document
   examples: |
     - document to bring
@@ -386,6 +458,11 @@ nlu:
     - package
     - recruitment
     - companies
+    - highest package of this year
+    - highest package in which branch
+    - highest internship package
+    - recruitment companies that visit campus
+    - campus placements
 
 - intent: applied_sciences
   examples: |
@@ -403,6 +480,7 @@ nlu:
    - cse department
    - cse
    - computer science
+   
 - intent: ece
   examples: |
    - department of electronics and communication engineering 
@@ -411,6 +489,7 @@ nlu:
    - department of electronics and communication
    - ece department 
    - electronics and communication engineering department
+   
 - intent: it
   examples: |
    - department of information technology
@@ -419,6 +498,7 @@ nlu:
    - IT department 
    - information technology
    - IT
+   
 - intent: mapping
   examples: |
     - Where is [Admin Block](map)?
@@ -449,6 +529,7 @@ nlu:
   examples: |
    - Department of Management
    - Management Department
+   
 - intent: ARTIFICIAL_INTELLIGENCE
   examples: |
    - Department of Artificial Intelligence
@@ -599,6 +680,7 @@ nlu:
     - are there any ragging cases
     - facilities
     - facilities provided
+    
 - intent: college_intake
   examples: |
     - max number of students
@@ -621,6 +703,7 @@ nlu:
     - uniform
     - what about uniform
     - do we have to wear uniform
+    
 - intent: committee
   examples: |
     - what are the different committe in college
@@ -690,3 +773,23 @@ nlu:
     - what is the fee structure of BBA-IEV programme
     - how many students can take admission
 
+- intent: Technical_Societies
+  examples: |
+    - Technical societies of IGDTUW
+    - Technical Societies
+    - Tech clubs
+    
+- intent: Management_Societies
+  examples: |
+    - Management societies
+    - management clubs
+    - MBA socities
+    
+- intent: Cultural_fests
+  examples: |
+  = Cultural clubs
+  - Clutural fests
+  - Cultural societies
+- intent: Cultural_Socieity
+    
+    
