@@ -130,6 +130,23 @@ nlu:
     - How many ways are there for taking admission in all the different courses offered by the institute?
     - Which exams need to be given for the admission?
     - Ways for taking admission?
+    - When are the exams scheduled for BTECH end-semester
+    - BTech end-term exam dates
+    - BTech end-term exam schedule
+    - list of holidays
+    - When are the exams scheduled for MTECH end-semester
+    - When are the exams scheduled for MCA end-semester
+    - MTech end-term exam dates
+    - Mtech end-term exam schedule
+    - Management course examination details
+    - Graduation course exam details
+    - Post-graduation course exam details
+    - Barch course exam schedule
+    - Barch course exam dates
+    - End-term exam schedule
+    - Mid-term exam schedule
+    - MCA exam dates
+    - MCA exam schedule
  
 - intent: admission_procedure
   examples: |
@@ -138,6 +155,23 @@ nlu:
     - When is the document verification and other formalities of admission done after giving the admission letter?
     - How are documents verified for a candidate?
     - How do I get document verification done?
+    - Admission procedure for BTech courses
+    - Admission procedure for MTech courses
+    - Admission procedure for management programme
+    - Admisison procedure for Btech program
+    - Admission procedure for Mtech program
+    - Admission procedure for Barch program
+    - Admission procedure for MCA program
+    - Admission procedure for PhD program
+    - Admission procedure for BBA-IEV program
+    - Business Blasters program
+    - Btech admission procedure
+    - Mtech admission procedure
+    - MCA admission procedure
+    - Barch admission procedure
+    - Management admission procedure
+    - How many courses are there in graduation program
+    - Courses offered in IGDTUW
  
 - intent: course_queries
   examples: |
