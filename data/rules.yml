@@ -192,7 +192,7 @@ rules:
    - intent: MECHANICAL_AUTOMATION
    - action: utter_MECHANICAL_AUTOMATION
    
-- rule:Say MANAGEMENT
+- rule: Say MANAGEMENT
   steps:
    - intent: MANAGEMENT
    - action: utter_MANAGEMENT
