@@ -152,62 +152,108 @@ rules:
   - intent: task
   - action: utter_task
 
-- rule: transport
+- rule: Say transport
   steps:
   - intent: transport
   - action: utter_transport
 
-- rule: metro
+- rule: Say metro
   steps:
   - intent: metro
   - action: utter_metro
 
-- rule: applied_sciences
+- rule: Say applied_sciences
   steps:
   - intent: applied_sciences
   - action: utter_applied_sciences
 
-- rule: cse
+- rule: Say cse
   steps:
   - intent: cse
   - action: utter_cse
 
-- rule: ece
+- rule: Say ece
   steps:
   - intent: ece
   - action: utter_ece
 
-- rule: it
+- rule: Say it
   steps: 
   - intent: it
   - action: utter_it
 
-- rule: Architecture_Planning
+- rule: Say Architecture_Planning
   steps:
    - intent: Architecture_Planning
    - action: utter_Architecture_Planning
  
-- rule: MECHANICAL_AUTOMATION
+- rule: Say MECHANICAL_AUTOMATION
   steps:
    - intent: MECHANICAL_AUTOMATION
    - action: utter_MECHANICAL_AUTOMATION
    
-- rule: MANAGEMENT
+- rule:Say MANAGEMENT
   steps:
    - intent: MANAGEMENT
    - action: utter_MANAGEMENT
    
-- rule: ARTIFICIAL_INTELLIGENCE
+- rule: Say ARTIFICIAL_INTELLIGENCE
   steps:
    - intent: ARTIFICIAL_INTELLIGENCE
    - action: utter_ARTIFICIAL_INTELLIGENCE
 
-- rule: Business_Blaster_Programme
+- rule: Say Business_Blaster_Programme
   steps:
    - intent: Business_Blasters_Programme
    - action: utter_Business_Blasters_Programme
 
-- rule: Display map
+- rule: Say Display map
   steps:
    - intent: mapping
    - action: utter_mapping
+
+- rule: Say entrance exam queries
+  steps:
+   = intent: entrance_exam_queries
+   - action: utter_entrance_exam_queries
+   
+- rule: Say admission procedure
+  steps: 
+   - intent: admission_procedure
+   - action: utter_admission_procedure
+   
+- rule: Say Technical societies
+  steps:
+   - intent: Technical_Societies
+   - action: utter_Technical_Societies
+   
+- rule: Say Management societies
+  steps:
+   - intent: Management_Societies
+   - action: utter_Management_Societies
+   
+- rule: Say cultural fests
+  steps:
+   - intent: Cultural_fests
+   - action: utter_Cultural_fests
+   
+- rule: Say MOUs
+  steps:
+   - intent: MOUs
+   - action: utter_MOUs
+
+- rule: Say scholarships
+  steps:
+   - intent: scholarships
+   - action: utter_scholarships
+   
+- rule: say course queries
+  steps:
+   - intent: course_queries
+   - action: utter_course_queries
+   
+ - rule: Say current exam status
+  steps:
+   - intent: Current_exam_status
+   - action: utter_Current_exam_status
+   
