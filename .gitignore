@@ -1,1 +1,4 @@
 .rasa/
+.DS_Store
+.DS_Store
+.rasa/cache/cache.db
