@@ -82,15 +82,15 @@ responses:
   
   utter_admission_procedure:
   - text: "IGDTUW provides nine undergraduate, eight post graduate courses and PHD in various domains, kindly visit our website for more details"
-  - url: "https://www.igdtuw.ac.in/Admission.php?id=4"
+  # - url: "https://www.igdtuw.ac.in/Admission.php?id=4"
 
   utter_examinations:
   - text: "Kindly check out our Academic Calender for branch specific examination details"
-  - url: "https://www.igdtuw.ac.in/examinations.php?id=2"
+  # - url: "https://www.igdtuw.ac.in/examinations.php?id=2"
 
   utter_re-examinations:
   - text: "Kindly check out our Student Notice board for Updates"
-  - url: "https://www.igdtuw.ac.in/examinations.php?id=5"
+  # - url: "https://www.igdtuw.ac.in/examinations.php?id=5"
 
   utter_entrance__exam_queries:
   - text: "The admission B.Tech and B.Arch programme will be through Joint Admission Counselling (JAC) - 2021 jointly for DTU, NSUT, IGDTUW, DSEU and IIITD. For more information, the candidates must visit jac delhi regularly for updates. Thhe admissions for PHD is done through an entrance exam followed by an interview"
@@ -115,7 +115,7 @@ responses:
   
   utter_fees:
   - text: "For fee details visit IGDTUW official website"
-  - url: "https://www.igdtuw.ac.in/Admission.php?id=2"
+  # - url: "https://www.igdtuw.ac.in/Admission.php?id=2"
   
   utter_location:
   - text: "Indira Gandhi Delhi Technical University For Women, Madrasa Road ,Opposite St. James Church Kashmere Gate,Delhi nearest metro station is kashmere gate"
@@ -213,24 +213,22 @@ responses:
   - text: "Yes, IGDTUW is providing BBA-IEV Programme. it is currently enrolling 30 students in this programme. the admissions are already started from 5th August 2022. the fee structure for the admission is available on the official site of IGDTUW"
 
   utter_entrance_exam_queries:
-  - text: ""
-  
-  utter_admission_procedure:
-  
+  - text: "ERROR"
+
   utter_Technical_Societies:
-  
+  - text: "ERROR"
   utter_Management_Societies:
-  
+  - text: "ERROR"
   utter_Cultural_fests:
-  
+  - text: "ERROR"
   utter_MOUs:
-  
+  - text: "ERROR"
   utter_scholarships:
-  
+  - text: "ERROR"
   utter_course_queries:
-  
+  - text: "ERROR"
   utter_Current_exam_status:
-  
+  - text: "ERROR"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
