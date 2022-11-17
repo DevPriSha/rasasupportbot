@@ -222,7 +222,7 @@ nlu:
     - options of financial help
 
 - intent: MOUs
-  example: |
+  examples: |
     - How many MoUs signed by IGDTUW
     - International MoUs
     - National MoUs
@@ -787,8 +787,8 @@ nlu:
     
 - intent: Cultural_fests
   examples: |
-  = Cultural clubs
-  - Clutural fests
-  - Cultural societies
+    - Cultural clubs
+    - Cultural fests
+    - Cultural societies
     
     
