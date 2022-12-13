@@ -1,7 +1,7 @@
 # rasasupportbot
 
 ### Create a virtual environment
-- Make sure python is python 3.8
+- Make sure the version of python used is python 3.8
 
 `python3 -m venv venv`
 
