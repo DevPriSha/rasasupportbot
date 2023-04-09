@@ -1,7 +1,11 @@
 # rasasupportbot
 
+<<<<<<< Updated upstream
 ### Create a virtual environment
 - Make sure the version of python used is python 3.8
+=======
+### Create a virtual environment and install dependencies
+>>>>>>> Stashed changes
 
 `python3 -m venv venv`
 
@@ -9,9 +13,7 @@
 
 `venv\Scripts\activate` (Windows)
 
-`pip install rasa=3.0`
-
-**Note:** M1 Mac users install Rasa by following this guide - https://forum.rasa.com/t/an-unofficial-guide-to-installing-rasa-on-an-m1-macbook/51342
+`pip install -r requirements.txt`
 
 ### Train model
 `rasa train`
@@ -65,12 +67,12 @@ responses:
 ## TODO
 - [x] Add frontend
 - [ ] Update Frontend for Pi
-- [x] Add voice support (speech synthesis and speech recognition)
+- [ ] Add voice support (speech synthesis and speech recognition)
 - [ ] Increase dataset (and add buttons and slots/entities)
 - [x] Add a fallback intent.
 - [ ] Add university map.
 - [ ] Look into better STT and TTS.
-- [ ] Connect Mic and Speakers
+- [x] Connect Mic and Speakers
 - [ ] Give the Pi a body
 - [ ] Add the frontend code to this repository
 

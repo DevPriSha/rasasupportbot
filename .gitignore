@@ -2,3 +2,12 @@
 .DS_Store
 .DS_Store
 .rasa/cache/cache.db
+.DS_Store
+.DS_Store
+
+# virtualenv
+.venv
+venv/
+unibot/
+.unibot
+
