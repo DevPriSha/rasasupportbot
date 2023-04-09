@@ -1,11 +1,6 @@
 # rasasupportbot
 
-<<<<<<< Updated upstream
-### Create a virtual environment
-- Make sure the version of python used is python 3.8
-=======
 ### Create a virtual environment and install dependencies
->>>>>>> Stashed changes
 
 `python3 -m venv venv`
 
@@ -16,16 +11,16 @@
 `pip install -r requirements.txt`
 
 ### Train model
-`rasa train`
+`python3 -m rasa train`
 
 ### Run rasa in terminal
-`rasa shell`
+`python3 -m rasa shell`
 
 ### Train rasa with examples while running it on terminal
-`rasa interactive`
+`python3 -m rasa interactive`
 
-### Run RASA on web (tested only on M1 mac chrome and Raspberry pi chromium)
-`rasa run --enable-api --cors="*"`
+### Run RASA on web (needs to be updated, use shell/interactive in the meantime)
+`python3 -m rasa run --enable-api --cors="*"`
 Clone bizdamn/priya and run the following command in the directory - 
 `npm install`
 `npm start`
