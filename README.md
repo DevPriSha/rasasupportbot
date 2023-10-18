@@ -19,6 +19,26 @@
 ### Train rasa with examples while running it on terminal
 `python3 -m rasa interactive`
 
+### Run Rasa on raspberry pi
+`python3 -m rasa run --enable-api --cors="*"`
+In a new terminal tab, run the following command in the directory -
+`ngrok http 5005`
+![Alt text](image.png)
+
+Connect to pi through ssh and run the following command in the directory -
+`cd priya`
+`code .`
+Copy the https url and paste it in the frontend code in the `src/App.js` file in the `axios.post()` function. (there are 2 axios commands, search ngrok and you'll find them. Replace those ngrok links with the new one.)
+
+On the pi, run the following command in the terminal - 
+`cd priya`
+`npm install`
+`npm start`
+
+This should open a browser window with chatbot screen. If it doesn't, open a browser and go to `localhost:3000` and you should see the chatbot screen.
+
+Test the chatbot all you want!
+
 ### Run RASA on web (needs to be updated, use shell/interactive in the meantime)
 `python3 -m rasa run --enable-api --cors="*"`
 Clone bizdamn/priya and run the following command in the directory - 
@@ -81,3 +101,8 @@ responses:
 ## Known bugs/Issues
 - [ ] Does not work on Safari (M1 Mac)
 
+
+
+# Connecting to raspberry pi through ssh
+follow this link - 
+https://www.onlogic.com/company/io-hub/how-to-ssh-into-raspberry-pi/
